@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nota1 = int(input('Nota 1: '))
 nota2 = int(input('Nota 2: '))
 nota3 = int(input('Nota 3: '))
@@ -16,3 +17,12 @@ for nota in media:
             print('aluno reprovado no exame')
     elif media > 6.0 and media <= 10.0:
         print('aluno aprovado')
+=======
+nota = media = soma = 0
+
+for _ in range(1,6):
+    nota = float(input('Digite a nota: '))
+    soma += nota
+
+print(soma)
+>>>>>>> 0139af2e3f1114380ece7e4b37508b7417609c00
