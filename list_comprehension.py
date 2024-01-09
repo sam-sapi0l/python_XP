@@ -31,3 +31,27 @@ novos_produtos = [
     for produto in produtos
 ]
 print(*novos_produtos, sep='\n')
+
+
+
+# filtro em list comprehension
+lista = [n for n in range(10) if n < 5]
+print(lista)
+
+# loop for dentro do outro
+lista = []
+for x in range(3):
+    for y in range(3):
+        lista.append((x, y))
+
+lista = [
+    (x, y)
+    for x in range(3)
+    for y in range(3)
+]
+lista = [
+    [letra for letra in 'Josnei']
+    for x in range(3)
+]
+
+print(lista)
