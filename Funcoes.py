@@ -1,3 +1,7 @@
+from re import X
+from tkinter import Y
+
+
 def escopo():
     x = 10
     
@@ -10,5 +14,5 @@ def escopo():
     print(x)
 
 
-print(x)
+print(X, Y)
 escopo()
