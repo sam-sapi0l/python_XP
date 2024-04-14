@@ -1,2 +1,7 @@
-.idea/.gitignore
-C:\Users\gabri\Documents\python_project\python_XP\venv
+.gitignore
+
+#Enviroments
+venv
+env
+.env
+.venv

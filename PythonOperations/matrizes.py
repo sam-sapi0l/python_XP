@@ -9,4 +9,4 @@ for i in range(matriz.shape[0]):
     for j in range(matriz.shape[1]):
         soma += matriz[i][j]
     
-    print('Soma: '> soma)
+    print('Soma: ', soma)
